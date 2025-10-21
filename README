@@ -7,11 +7,12 @@ we use arduino nano as the main Microcontroller for this
 
 
 
-we embedded the flex sensor on a knee cap which placed the flex sensor on the back of the knee and the IMU on the upper right calf
+we embedded the flex sensor on a knee cap which placed the flex sensor on the back of the knee and the IMU on the upper right thigh
 we use a nano on the thigh to power both modules
 
 
 to make the flex sensor work we need to create a voltage divider ckt in order to pull up the current and allow the change in resistance fo the flex sensor to give us proper 
 analog values that we can use to calibrate and measure the angle of movement
 
-more additions to come soon
+we use a HC-05 bluetooth transmission module to transmitt data from the kneecap to our system where we read said data
+
