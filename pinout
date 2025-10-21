@@ -1,0 +1,29 @@
+transmitter
+
+  BNO
+  sda to a4 
+  scl to a5
+  vcc to 5v
+  gnd to gnd
+
+  flex
+  terminal 1 as a pulldown 
+  terminal 2 to gnd
+
+  voltage divider
+  5v--10k resistor--analog input tapped out--flex--gnd
+
+  push button is connected to d2 and gnd(on click it gives a digital signal to the nano )
+  
+  
+  HC-05
+  vcc--hc-05's(5v)
+  gnd--hc-05's(gnd)
+  d10--tx
+  d11--rx
+receiver 
+  vcc--hc-05's(5v)
+  gnd--hc-05's(gnd)
+  d10--tx
+  d11--rx
+  
