@@ -1,0 +1,8 @@
+flex calibration:
+  push button once for 0* reading
+  push button twice for 90* reading
+  push button thrice for 130* reading
+IMU calibration:
+  z in serial monitor for baseline
+  d in serial monitor for displacement
+  s to stream data
